@@ -1,13 +1,14 @@
 ##########################################################################
 # This funtion calculates the mean of the variable interval in the data set provided.
 #.its output is a data frame wirh the interval and the mean of that interval across all days
+#data input must not contain NA values
 ##########################################################################
 
 
 
 
 intervalMean<-function(data){
-        nlev=as.numeric(levels(as.factor(data$interval)))
+        nlev=as.numeric(levels(as.factor(data$interval)))#
         data_intv_mean<-rep(NA, length(nlev))
         for (i in 1:length(nlev)){
                 fctor<-nlev[i]

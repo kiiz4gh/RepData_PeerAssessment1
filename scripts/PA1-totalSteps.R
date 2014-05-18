@@ -1,6 +1,7 @@
 ################################################################
 # this function outputs a vector that is the toatal step in an interval across 
-# all days
+# all days.
+#data input must not have missing(NA) values
 #################################################################
 
 totalSteps<-function(data){

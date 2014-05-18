@@ -1,17 +1,21 @@
 PA1 Assignment.
 ========================================================
 
-1. INTRODUCTION
+INTRODUCTION
  
  This assignment looks at data derived from an activity monitoring devices. These devices monitor the health via activity of the wearer and are becoming quite common. The data consists of data from such a devices of an anonymous individual collected during the months of October and November. It records the number of steps taken in 5 minute intervals each day.
  
  The variables in this dataset are:
 
-steps: Number of steps taking in a 5-minute interval with missing values are recorded as NA.
+        steps: Number of steps taken in a 5-minute interval with missing values are recorded as NA.
 
-date: The date on which the measurement was recorded.
+        date: The date on which the measurement was recorded.
 
-interval: An identifier for each 5-minute interval in which data was collected.
+        interval: An identifier for each 5-minute interval in which data was collected.
+        
+The data is in the repo as well, but this mark down file use local data to speed up analysis. change the URL in the source() command to point to files in the repo
+
+the z variable is used to hold tempory data, it is removed( via rm()) when not needed.
 
 2. DATA PROCESSING STEPS
 ===============================================

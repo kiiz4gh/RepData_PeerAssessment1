@@ -1,3 +1,9 @@
+###################################################################
+#this function replaces NA values with the mean of that interval
+#
+###################################################################
+
+
 imputNA<-function(data){
         data_clean<-as.data.frame(na.omit(data))
         invMean<-intervalMean(data_clean)
